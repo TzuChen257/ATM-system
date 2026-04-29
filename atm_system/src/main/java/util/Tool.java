@@ -64,7 +64,7 @@ public class Tool {
 	public static Connection getDb()
 	{
 		Connection conn=null;
-		String sql="jdbc:mysql://localhost:3306/hw2_bank";
+		String sql="jdbc:mysql://localhost:3306/atm_system";
 		String user="root";
 		String password="1234";
 		try {
